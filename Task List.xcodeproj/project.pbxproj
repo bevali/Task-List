@@ -14,6 +14,7 @@
 		759B51E71A15F6F40092514E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759B51E61A15F6F40092514E /* Images.xcassets */; };
 		759B51EA1A15F6F40092514E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759B51E81A15F6F40092514E /* LaunchScreen.xib */; };
 		759B51F61A15F6F50092514E /* Task_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B51F51A15F6F50092514E /* Task_ListTests.swift */; };
+		759B52041A15FC5F0092514E /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B52031A15FC5F0092514E /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		759B51EF1A15F6F50092514E /* Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		759B51F41A15F6F50092514E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759B51F51A15F6F50092514E /* Task_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_ListTests.swift; sourceTree = "<group>"; };
+		759B52031A15FC5F0092514E /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				759B51DD1A15F6F40092514E /* AppDelegate.swift */,
 				759B51DF1A15F6F40092514E /* FirstViewController.swift */,
 				759B51E11A15F6F40092514E /* SecondViewController.swift */,
+				759B52031A15FC5F0092514E /* TaskManager.swift */,
 				759B51E31A15F6F40092514E /* Main.storyboard */,
 				759B51E61A15F6F40092514E /* Images.xcassets */,
 				759B51E81A15F6F40092514E /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				759B51E21A15F6F40092514E /* SecondViewController.swift in Sources */,
 				759B51DE1A15F6F40092514E /* AppDelegate.swift in Sources */,
+				759B52041A15FC5F0092514E /* TaskManager.swift in Sources */,
 				759B51E01A15F6F40092514E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
